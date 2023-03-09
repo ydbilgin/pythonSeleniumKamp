@@ -1,0 +1,52 @@
+# Python Veri Tipleri
+
+# 1-String Veri Tipleri
+ str = Metinler için kullanılan veri tipidir.
+ 
+# 2-Sayısal Veri Tipleri
+ int = Tam sayılar için kullanılan veri tipidir.
+ float = Ondalıklı sayılar için kullanılan veri tipidir.
+ 
+# 3-Boolean Veri Tipleri
+ bool = True(1) ya da False(0) cevapları verir.
+
+# 4-Sequence Veri Tipleri
+ list = Sıralama için kullanılır. Farklı türler barındırabilir.
+ tuple = list'e benzerdir. Ama yapısında değişiklik yapılamaz.
+ range = Sayısal sıralama yapar.
+
+# 5-Mapping(haritalama) Veri Tipleri
+ dict = Key-value yani anahtar-değer ilişkisi vardır.
+
+# 6-Set Veri Tipleri
+# set = Print ettiğimizde her seferinde farklı bir şekilde çıkan sıralamalardır.
+# frozenset = İçine ekleme, çıkarma yapılamayan donmuş küme setleridir.
+
+# 7-Binary Veri Tipleri
+ bytes
+ bytearray
+ memoryview
+ 
+ #Değişken veriler ve veri tipleri
+  Örnek olarak profil kısmındaki kişisel bilgilerimiz string olarak kaydedilip her kullanıcının girdiği mail adresi, isim soyisim, şifre gibi veriler string olarak kaydedilen ve her kullanıcının girdiği verilere göre değişkenlik gösteren verilerdir.
+ 
+ 
+ 
+ # Şart Blokları
+ progressbar = 0
+ if DersProgrami = True
+  progressbar += 25
+ else 
+  print("Henüz bu aşamayı tamamlamadınız.")
+ if degerlendirme = True
+  progressbar += 25
+ else 
+  print("Henüz bu aşamayı tamamlamadınız.")
+ if odev1 = True
+  progressbar += 25
+ else 
+  print("Henüz bu aşamayı tamamlamadınız.")
+ if odev2 = True
+  progressbar += 25
+ else 
+  print("Henüz bu aşamayı tamamlamadınız.")
