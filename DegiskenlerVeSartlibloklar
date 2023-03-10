@@ -32,7 +32,7 @@
  
  
  
- # Şart Blokları
+ # Şart Blokları (Doğru ama yanlış olduğunu biliyorum. phython yüklü olmadığı için henüz kafamda kuramadım durumu)
  progressbar = 0
  if DersProgrami = True
   progressbar += 25
