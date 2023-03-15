@@ -1,0 +1,54 @@
+ogrenciler[]
+
+def ogrenci_ekle(ogrenciler):
+    isim = input("Öğrencinin adını girin: ")
+    soyisim = input("Öğrencinin soyadını girin: ")
+
+    ogrenci = isim + ' ' + soyisim
+    ogrenciler.append(ogrenci)
+
+    return ogrenciler
+def ogrenci_sil(ogrenciler):
+    isim = input("Silmek istediğiniz öğrencinin adını girin: ")
+    soyisim = input("Silmek istediğiniz öğrencinin soyadını girin: ")
+
+    ogrenci = isim + ' ' + soyisim
+
+    if ogrenci in ogrenciler:
+        ogrenciler.remove(ogrenci)
+        print(ogrenci, "öğrencisi listeden silindi.")
+    else:
+        print("Öğrenci bulunamadı.")
+
+    return ogrenciler
+def coklu_ogrenci_ekleme(ogrenciler):
+    i=0 
+    coklu_ogrenci=input("Kaç öğrenci eklemek istediğinizi giriniz.")
+    coklu_ogrenci = int(coklu_ogrenci)
+    for i in range(coklu_ogrenci):
+      ogrenci = isim + ' ' + soyisim
+      ogrenciler.append(ogrenci)
+   return ogrenciler         #tam olarak emin olamamakla beraber böyle bi kurulum gerçekleştirilebilir)
+   
+def ogrenci_yazdir(ogrenciler):
+    for ogrenci in ogrenciler:
+        print(ogrenci) 
+        
+def ogrenci_numarasi(ogrenci_index):
+    return ogrenci_index + 1
+   
+def ogrenci_sil_toplu(ogrenciler, *silinecekler):
+    for silinecek in silinecekler:
+        if silinecek in ogrenciler:
+            ogrenciler.remove(silinecek)
+            print(f"{silinecek} öğrencisi listeden silindi.")
+        else:
+            print(f"{silinecek} öğrencisi listede bulunamadı.")   
+            
+            
+ogrenci_ekle()
+ogrenci_sil()
+coklu_ogrenci_ekleme()
+ogrenci_yazdir()
+ogrenci_numarasi()
+ogrenci_sil_toplu()
